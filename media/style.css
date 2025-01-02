@@ -20,6 +20,7 @@ body {
     background-color: var(--background1);
     color: white;
     margin:0px;
+    cursor: url('/media/cursor.cur') auto;
 }
 
 
@@ -199,7 +200,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5) url('https://imgur.com/cGMLytH.png');
+    background: rgba(0, 0, 0, .5) url('https://picfiles.alphacoders.com/478/478314.png');
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -493,10 +494,10 @@ body {
     margin-bottom: .5rem;
 }
 .main5_admins_description_rank_owner {
-    color: #3498db;
+    color: #ffc800;
 }
-.main5_admins_description_rank_admin {
-    color: #f82f2f;
+.main5_manager_description_rank_manager {
+    color: #00ffe9;
 }
 .main5_admins_description_title {
     text-align: center;
@@ -517,6 +518,32 @@ body {
     font-size:1.2rem;
 }
 
+.main5_developer_img {
+    border-radius: var(--roundness);
+    max-width: 40%;
+    max-height: 50%;
+    align-self: center;
+}
+
+.main5_developer_description_rank_developer {
+    text-align: center;
+    font-size:1.5rem;
+    font-weight: 700;
+    color: #f1c405;;
+    text-decoration: none;
+    transition: all .5s;
+    margin-bottom: .5rem;
+}
+
+.main5_developer_description {
+    margin-bottom: auto;
+    font-size:1.2rem;
+    text-align: center;
+}
+
+.main5_moderator_description_rank_moderator {
+    color: #0080ff
+}
 
 .main5_supporter_div {
     display: flex;
@@ -543,6 +570,7 @@ body {
     max-height: 100%;
     align-self: center;
     margin: 1rem;
+    background-color: var(--background1);
 }
 .main5_supporters_description_div {
     display: flex;
@@ -557,8 +585,14 @@ body {
     font-weight: 700;
     margin-bottom: .5rem;
 }
-.main5_supporters_description_rank_supporter {
-    color: #00f8ff;
+.main5_supporters_description_rank {
+    color: lightskyblue
+}
+.main5_moderator_description_rank {
+    text-align: center;
+    font-size:1.2rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
 }
 .main5_supporters_description_title {
     text-align: center;
@@ -578,7 +612,6 @@ body {
     font-size:1.2rem;
     margin-bottom: auto;
 }
-
 
 
 
